@@ -1,0 +1,67 @@
+.bg_color {
+    background-color: rgb(221, 207, 10);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+body {
+    font-family: "Marvel", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.fw_bolder {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.menu_title {
+    background-color: rgb(21, 19, 4);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+/* Media Queries for different screen sizes */
+@media screen and (max-width: 768px) {
+
+    /* Tablets and smaller */
+    .text-justify {
+        padding: 0.75rem;
+    }
+
+    .menu_title {
+        font-weight: 400;
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Mobile devices */
+    .text-justify {
+        padding: 0.5rem;
+    }
+
+    .menu_title {
+        font-weight: 400;
+        font-size: 1.1rem;
+        padding: 0.3rem 0.6rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Larger screens */
+    .text-justify {
+        padding: 1.5rem;
+    }
+
+    .menu_title {
+        font-size: 1.7rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
