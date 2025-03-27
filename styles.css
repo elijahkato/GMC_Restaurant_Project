@@ -11,6 +11,27 @@ body {
     font-optical-sizing: auto;
 }
 
+.cta-btn {
+    background-color: rgb(21, 10, 221);
+    color: rgb(234, 204, 13);
+    font-size: 4rem;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cta-btn:hover {
+    background-color: rgb(72, 63, 238);
+    color: rgb(136, 119, 7);
+}
+
 .fw_bolder {
     font-weight: 700;
     font-style: normal;
